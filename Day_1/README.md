@@ -59,7 +59,7 @@ A **VCD (Value Change Dump)** file is a text-based file that records the activit
 
 This file format is widely used in the field of digital design because it provides a compact and standardized way to capture all the necessary information for a waveform viewer (like **GTKWave**) to display the simulation results graphically for analysis and debugging.
 
---
+---
 ## 4. Lab: Simulating a 2-to-1 Multiplexer
 
 Simulating a simple **2-to-1 multiplexer** using iverilog!
@@ -73,7 +73,8 @@ cd sky130RTLDesignAndSynthesisWorkshop/verilog_files
 <div align="center">
   <img src="./assets/Clone_repo.png" alt="clone_repo" width="70%">
 </div>
-###  Step 2: Install Required Tools
+
+### Step 2: Install Required Tools
 
 ```shell
 sudo apt install iverilog
@@ -188,8 +189,8 @@ Instantiate the Design: It includes the good_mux module and connects its inputs 
 Generate Stimulus: It uses initial and always blocks to provide a sequence of input values (i0, i1, sel) to the multiplexer over time.
 
 Dump Waveforms: It uses the system tasks $dumpfile and $dumpvars to record the changes in all signals during the simulation, which creates the .vcd file for viewing.
----
 
+---
 ## 6. Introduction to Yosys & Gate Libraries
 
 ###  What is Yosys?
@@ -221,6 +222,14 @@ A `.lib` file contains many versions of each gate (like AND, OR, NOT) with diffe
 
 <div align="center">
   <img src="./assets/about_.lib.png" alt="about_.lib" width="70%">
+</div>
+
+#### Cell Selection
+<div align="center">
+  <img src="./assets/Cell_Selection.png" alt="cell-selection" width="70%">
+</div>
+<div align="center">
+  <img src="./assets/Fast_Slow_Cells.png" alt="Fast_Slow_Cells" width="70%">
 </div>
 
 ---
@@ -277,8 +286,8 @@ Let’s synthesize the `good_mux` design using Yosys!
 <div align="center">
   <img src="./assets/netlist.png" alt="Gate-level netlist" width="70%">
 </div>
----
 
+---
 ## 8. Summary
 
 - Learned about simulators, designs, and testbenches.
