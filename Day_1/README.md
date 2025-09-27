@@ -150,7 +150,7 @@ If sel is 0, the output y will be equal to i0.
 If sel is 1, the output y will be equal to i1
 
 The Testbench (tb_good_mux.v)
-``` timescale 1ns / 1ps
+```verilog timescale 1ns / 1ps
 module tb_good_mux;
 
     // Inputs
