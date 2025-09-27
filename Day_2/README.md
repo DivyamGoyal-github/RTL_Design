@@ -103,8 +103,8 @@ Hierarchy is preserved. sub_module1 and sub_module2 are instantiated separately 
   <img src="./assets/hierarchical_schematic.png" alt="hierarchical_schematic" width="70%">
 </div>
 
-For **gate-level netlist**
-    ```shell
+For **gate-level netlist** \
+    ``` 
     write_verilog hier_netlist.v
     !vim hier_netlist.v
     ```
@@ -258,7 +258,7 @@ The screenshot below shows DFF with asynchronous reset HDL simulation in Iverilo
   <img src="./assets/gtkwave_dff_async_reset.png" alt="gtkwave_dff_async_reset" width="70%">
 </div>
 
-Similarly we can simulate other flipflops -
+Similarly we can simulate other flipflops - \
 `dff_async_set`
 <div align="center">
   <img src="./assets/gtkwave_dff_async_set.png" alt="gtkwave_dff_async_set" width="70%">
