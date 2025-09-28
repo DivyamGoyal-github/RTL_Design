@@ -1,4 +1,4 @@
-# Day 2 - Timing libs, Hierarchical vs Flat Synthesis and Efficient Flop Coding Styles
+# Day 2: Timing libs, Hierarchical vs Flat Synthesis and Efficient Flop Coding Styles
 ---
 ## Introduction to timing .libs
 
@@ -103,11 +103,12 @@ Hierarchy is preserved. sub_module1 and sub_module2 are instantiated separately 
   <img src="./assets/hierarchical_schematic.png" alt="hierarchical_schematic" width="70%">
 </div>
 
-For **gate-level netlist** \
-    ``` 
-    write_verilog hier_netlist.v
-    !vim hier_netlist.v
-    ```
+For **gate-level netlist** 
+```shell
+write_verilog hier_netlist.v
+!vim hier_netlist.v
+```
+    
 <div align="center">
   <img src="./assets/hier_netlist_1.png" alt="hier_netlist_1" width="70%">
 </div>
