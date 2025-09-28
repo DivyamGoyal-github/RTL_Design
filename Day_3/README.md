@@ -89,6 +89,11 @@ This balances the logic delay between the registers, potentially allowing a fast
 ---
 ## Labs on Optimization
 
+Follow the steps from [Day 1 Synthesis Lab](https://github.com/DivyamGoyal-github/RTL_Design/tree/main/Day_1#7-synthesis-lab-with-yosys) and add the following between `abc -liberty` and `synth -top`:
+```shell
+opt_clean -purge
+```
+
 <div align="center">
   <img src="./assets/opt_check_verilogFile_optimised_by_AND_gate.png" alt="opt_check_verilogFile_optimised_by_AND_gate" width="80%">
 </div>
