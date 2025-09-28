@@ -94,11 +94,19 @@ This balances the logic delay between the registers, potentially allowing a fast
 </div>
 
 <div align="center">
+  <img src="./assets/opt_check_optimisation.png" alt="opt_check_optimisation" width="80%">
+</div>
+
+<div align="center">
   <img src="./assets/yosys_opt_check.png" alt="yosys_opt_check" width="80%">
 </div>
 
 <div align="center">
   <img src="./assets/opt_check_2_verilogFile_optimised_by_OR_gate.png" alt="opt_check_2_verilogFile_optimised_by_OR_gate" width="80%">
+</div>
+
+<div align="center">
+  <img src="./assets/opt_check_2_optimisation.png" alt="opt_check_2_optimisation" width="80%">
 </div>
 
 <div align="center">
@@ -110,11 +118,19 @@ This balances the logic delay between the registers, potentially allowing a fast
 </div>
 
 <div align="center">
+  <img src="./assets/opt_check_3_optimisation.png" alt="opt_check_3_optimisation" width="80%">
+</div>
+
+<div align="center">
   <img src="./assets/yosys_opt_check_3.png" alt="yosys_opt_check_3" width="80%">
 </div>
 
 <div align="center">
   <img src="./assets/opt_check_4_verilogFile.png" alt="opt_check_4_verilogFile" width="80%">
+</div>
+
+<div align="center">
+  <img src="./assets/opt_check_4_optimisation.jpg" alt="opt_check_4_optimisation" width="80%">
 </div>
 
 <div align="center">
@@ -146,11 +162,19 @@ This balances the logic delay between the registers, potentially allowing a fast
 </div>
 
 <div align="center">
+  <img src="./assets/dff_const1_2.png" alt="dff_const1_2" width="80%">
+</div>
+
+<div align="center">
   <img src="./assets/yosys_dff_const_2.png" alt="yosys_dff_const_2" width="80%">
 </div>
 
 <div align="center">
   <img src="./assets/gtkwave_dff_const_3.png" alt="gtkwave_dff_const_3" width="80%">
+</div>
+
+<div align="center">
+  <img src="./assets/dff_const3.png" alt="dff_const3" width="80%">
 </div>
 
 <div align="center">
